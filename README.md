@@ -1,9 +1,9 @@
 # Boom Bike Sharing Assignment
 > A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues. They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know:
 
-> Which variables are significant in predicting the demand for shared bikes.
-> How well those variables describe the bike demands
-> We are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
+-  Which variables are significant in predicting the demand for shared bikes.
+-  How well those variables describe the bike demands
+>  We are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 > We have developed this case study as part of the Linear Regression Module for the Executive PG Programme in Machine Learning & AI - IIIT,Bangalore.
 
 
@@ -26,20 +26,15 @@
 
 ## Conclusions
 - As per our final linear Model, the top 3 predictors that influences the bike booking are:
-
 - Temperature (temp) -
-
     - A coefficient value of ‘0.49’ tells that a unit increase in temp increases the bike counts by 0.49 units.
 - Year (yr)
-
     - A coefficient value of ‘0.24’ tells that a unit increase in year increases the bike counts by 0.24 units.
 - Weather Situation (Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds) -
-
     - A coefficient value of ‘-0.29’ tells that a unit increase in weathersit_Light Snow decreases the bike counts by 0.29 units.
 So It is advice to focus above variables utmost preferences while planning to achive maximum bookings
 
 - The next best predictors that can also be considered are -
-
 - weekday_Sun:
     - A coefficient value of ‘0.06’ tells that a unit increase in season_winter increases the bike counts by 0.06 units.
 - season_spring:
