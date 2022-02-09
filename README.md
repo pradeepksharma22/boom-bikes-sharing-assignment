@@ -27,18 +27,18 @@
 ## Conclusions
 - As per our final linear Model, the top 3 predictors that influences the bike booking are:
 - Temperature (temp) -
-    -A coefficient value of ‘0.49’ tells that a unit increase in temp increases the bike counts by 0.49 units.
+    - A coefficient value of ‘0.49’ tells that a unit increase in temp increases the bike counts by 0.49 units.
 - Year (yr)
-    -A coefficient value of ‘0.24’ tells that a unit increase in year increases the bike counts by 0.24 units.
+    - A coefficient value of ‘0.24’ tells that a unit increase in year increases the bike counts by 0.24 units.
 - Weather Situation (Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds) -
-    -A coefficient value of ‘-0.29’ tells that a unit increase in weathersit_Light Snow decreases the bike counts by 0.29 units.
+    - A coefficient value of ‘-0.29’ tells that a unit increase in weathersit_Light Snow decreases the bike counts by 0.29 units.
 So It is advice to focus above variables utmost preferences while planning to achive maximum bookings
 
 - The next best predictors that can also be considered are -
 - weekday_Sun:
-    -A coefficient value of ‘0.06’ tells that a unit increase in season_winter increases the bike counts by 0.06 units.
+    - A coefficient value of ‘0.06’ tells that a unit increase in season_winter increases the bike counts by 0.06 units.
 - season_spring:
-    -A coefficient value of ‘-0.11’ tells that a unit increase in season_spring decreases the bike counts by 0.11 units.
+    - A coefficient value of ‘-0.11’ tells that a unit increase in season_spring decreases the bike counts by 0.11 units.
 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
