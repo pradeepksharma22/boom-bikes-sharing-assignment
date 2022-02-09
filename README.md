@@ -54,8 +54,8 @@ So It is advice to focus above variables utmost preferences while planning to ac
 - numpy library - version 1.21.4
 - matplotlib library - version 3.5.0
 - seaborn library - version 0.11.2
-- statsmodels
-- sklearn
+- statsmodels - version 0.13.1
+- sklearn - version 1.0.1
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
